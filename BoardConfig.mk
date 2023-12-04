@@ -5,7 +5,7 @@
 #
 
 # Include the common OEM chipset BoardConfig.
--include device/oneplus/sm8150-common/BoardConfigCommon.mk
+include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/guacamoleb
 
@@ -33,4 +33,4 @@ SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 645
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_Y := 205
 
 # Include the proprietary files BoardConfig.
--include vendor/oneplus/guacamoleb/BoardConfigVendor.mk
+include vendor/oneplus/guacamoleb/BoardConfigVendor.mk
